@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import FeaturedSearch from '../components/FeaturedSearch';
 import BlogGrid from '../components/BlogGrid';
 import SearchStats from '../components/SearchStats';
+import SearchBar from '../components/SearchBar';
 import Newsletter from '../components/Newsletter';
 
 const Home: React.FC = () => {
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
     >
       <Hero />
       <FeaturedSearch />
+      <SearchBar/>
       <SearchStats />
       <BlogGrid />
       <Newsletter />
